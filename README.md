@@ -24,3 +24,9 @@ git log --oneline
 1. Ingresar a Configuracion para Edicion
    git config --global -e
 2. Guardar la configuracion se presiona la tecla ESC + : + w + q + !
+
+#Creacion de Nombre de Rama de Branch por Default
+git config --global init.defaultBranch main
+
+#Crear comportamiento Global para Pull
+git config --global pull.ff only
